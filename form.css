@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .formmain{
+display: flex;
+width: 60%;
+justify-content: center;
+border: 1px solid white;
+    }
+    .sendus{
+        border-radius: 20px 0px 0px 20px !important;
+        width: 50%;
+    }
+  
+  .contact{
+    border-radius: 0px 20px 20px 0px !important;
+    margin-top: 0px !important;
+    width: 50%;
+  }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./pexels-photo-1105379.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+    align-items: center;
+font-family: sans-serif;
+    min-height: 100vh;
+
+}
+.formmain{
+margin: 20px;
+box-shadow: 2px 16px 20px black;
+border-radius: 20px;
+
+}
+.sendus{
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(40px);
+    border: 1px solid white;
+padding: 30px;
+/* box-shadow: 3px px 3px 3px black;   */
+}
+.contact{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+    /* box-shadow: 3px 3px 3px 3px black; */
+    padding: 30px;
+
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+input{
+    border: none;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(226, 222, 222);
+    padding: 10px 0px;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+input:focus {
+    border-color: white;
+}
+textarea{
+    background: transparent;
+border: none;
+border-bottom: 1.5px solid rgb(226, 222, 222);
+    width: 100%;
+    resize: none;
+    height: 120px;
+    outline: none;
+}
+textarea:focus {
+    border-color: white;
+}
+button{
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(70, 69, 69);
+    padding: 9px 20px;
+}
+.contact hr{
+    background-color: blue;
+    border: none;
+    padding: 2px;
+    margin: 3px 0px 10px 0px;
+    width: 50px;
+}
+.contact1{
+font-size: 15px;
+overflow-x: hidden;
+}
+.pp{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.contact1{
+    display: flex;
+    padding: 15px 0px;
+    gap: 20px;
+    align-items: center;
+}
+i{
+border: 1px solid black;
+display: flex;
+justify-content: center;
+border-radius: 99%;
+padding: 10px 12px;
+}
